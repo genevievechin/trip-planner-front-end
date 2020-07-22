@@ -1,0 +1,99 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Planner</title>
+    <link href="index.css" rel="stylesheet" type="text/css" />
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <nav>
+        <h1>
+            <span class="travel">Travel</span><span class="planner">Planner</span></h1>
+    </nav>
+
+    <main>
+        <section class="image">
+            <h2>image here</h2>
+        </section>
+
+        <div class="container">
+            <div>
+                <p class="whatToPack">
+                    Find out what to pack based off the weather on your trip.
+                </p>
+            </div>
+            <form action="/action_page.php">
+                <section class="selections">
+
+
+                    <!-- Select Travel Destination -->
+                    <div>
+                        <div> <label class="destinationlabel">Select Travel Destination</label> </div>
+                        <select class="destinationSelection">
+                  <option></option>
+                  <option value="portland">Portland</option>
+                  <option value="los-angeles">Los Angeles</option>
+                  <option value="paris">Paris</option>
+                  <option value="new-york-city">New York City</option>
+                </select>
+                    </div>
+
+                    <!-- Select Month of Travel -->
+                    <div>
+                        <div> <label class="monthLabel">Select Month of Travel</label> </div>
+                        <select class="month-selection">
+                    <option></option>
+                  <option value="january">January</option>
+                  <option value="february">February</option>
+                  <option value="march">March</option>
+                  <option value="april">April</option>
+                  <option value="may">May</option>
+                  <option value="june">June</option>
+                  <option value="july">July</option>
+                  <option value="august">August</option>
+                  <option value="september">September</option>
+                  <option value="october">October</option>
+                  <option value="november">November</option>
+                  <option value="december">December</option>
+                </select>
+                    </div>
+
+                    <!-- Select Start Day of Travel -->
+                    <div>
+                        <div><label class="daylabel">Select Start Day of Travel</label></div>
+                        <select class="day-selection">
+                    <option></option>
+                  <option value="one">1</option>
+                </select>
+                    </div>
+                    <!-- Select end day of travel -->
+                    <div>
+                        <label class="enddaylabel">Select End Day of Travel</label>
+                        <select class="endday-selection">
+                    <option></option>
+                  <option value="endone">1</option>
+                </select>
+                    </div>
+
+                    <!-- <div class="row">
+                        <div class="col-25">
+                            <label for="country">Country</label>
+                        </div>
+                        <div class="col-75">
+                            <select id="country" name="country">
+                                <option></option>
+              <option value="australia">Australia</option>
+              <option value="canada">Canada</option>
+              <option value="usa">USA</option>
+            </select>
+                        </div>
+                    </div> -->
+
+            </form>
+        </div>
+    </main>
+</body>

@@ -1,0 +1,205 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    padding: 1%;
+} */
+
+nav {
+    margin-bottom: 1%;
+    padding: 1%;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+}
+
+.travel {
+    color: #FB5607;
+}
+
+.planner {
+    color: #3A86FF;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+}
+
+article {
+    padding: 1%;
+    width: 50%;
+}
+
+
+/* .selections {
+    margin-right: 1%;
+    border: 1px solid #FFA23E;
+    background: #FFDCB7;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+} */
+
+h2 {
+    margin-bottom: 5px;
+}
+
+.whatToPack {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #FFFFFF;
+    background: #FB5607;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.destinationLabel {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #C8C8C8;
+}
+
+.destinationSelection {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    background: #FFFFFF;
+    border: 1px solid #FF006E;
+    box-sizing: border-box;
+}
+
+.monthLabel {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #C4C4C4;
+}
+
+.month-selection {
+    background: #FFFFFF;
+    border: 1px solid #FF006E;
+    box-sizing: border-box;
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+}
+
+.daylabel {
+    font-family: 'Open-Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #C8C8C8;
+}
+
+.day-selection {
+    background: #FFFFFF;
+    border: 1px solid #FF006E;
+    box-sizing: border-box;
+}
+
+.enddaylabel {
+    font-family: 'Open-Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #C4C4C4;
+}
+
+.endday-selection {
+    background: #FFFFFF;
+    border: 1px solid #FF006E;
+    box-sizing: border-box;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+
+/* @media screen and (max-width: 100px) {
+    .destinationSelection {
+        width: 100%;
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        flex-direction: column;
+        align-items: stretch;
+    }
+} */
+
+* {
+    box-sizing: border-box;
+}
+
+select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+.col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 14px;
+    color: #C4C4C4;
+}
+
+.col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+    background: #FFFFFF;
+    border: 1px solid #FF006E;
+    box-sizing: border-box;
+}
+
+
+/* Clear floats after the columns */
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+
+@media screen and (max-width: 2000px) {
+    .col-25,
+    .col-75,
+    input[type=submit] {
+        width: 100%;
+        margin-top: 0;
+    }
+}
